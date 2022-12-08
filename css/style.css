@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*** Header***/
+
+header div img {
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+header{
+    display:flex ;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    z-index: 1;
+    
+}
+
+
+ul{
+    list-style-type: none;
+    
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Zen Dots', cursive;
+    
+}
+
+.navegacion a:hover{
+    color: #ff0037;
+    
+}
+.button a:hover{
+    color:white;
+}
+
+.navegacion{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.linea_nav{
+    width: 100%;
+    height: 20px;
+    background-image:linear-gradient(to right, #1e2530,white,#181e26);
+    position:absolute;
+    bottom: -12px;
+    
+}
+
+header div{
+    width: 50%;
+    
+}
+
+nav{width: 50%;
+}
+
+.button{
+    border: 2px solid black;
+    padding: 2px;
+    background-color: #ff0037;
+    border-radius: 5px;
+}
+/***Termina Header***/
+
+/***Index***/
+
+.leyenda_principal{
+    display: flex;
+    justify-content: center;
+    background-color: #1e2530;
+    align-items: stretch;
+    height: 100vh;
+    
+}
+
+.leyenda_principal p{
+font-family: 'Zen Dots', cursive;
+font-size: 3rem;
+color:white;
+position:absolute;
+top: 30%;
+left: 52%;
+transform: translate(-80%, -10%);
+
+
+
+}
+.leyenda_principal video{
+    width: 80%;
+    opacity: 60%;
+    
+    
+}
+.leyenda_principal a{
+    text-decoration: none;
+    border: 2px solid #1e2530;
+    padding: 2px;
+    background-color:#ff0037;
+    border-radius: 5px;
+    color: #1e2530;
+    font-size: 2rem;
+    margin-left: 5%;
+}
+
+.leyenda_principal a:hover{
+    color:rgb(253, 249, 249);
+}
+
+ /***Termina Index***/
+
+ /*** Footer***/
+footer{
+    display:flex;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: #1e2530;
+    z-index: 1;
+    
+}
+ .derechos{
+    font-family: 'Zen Dots', cursive;
+    width: 50%;
+   color: white;
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    justify-content:center;
+ }
+ 
+.firma{
+    font-family: 'Zen Dots', cursive;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.linea_footer{
+    width: 100%;
+    height: 20px;
+    background-image:linear-gradient(to right, #1e2530,white,#181e26);
+    position: absolute;
+    top: 0;
+    
+}
+
+
+ /*** Termina Footer***/
+
+
+ /***Empresa***/
+
+ .empresa{
+    display: flex;
+    
+    
+   
+    height: 100vh;
+    
+    
+}
+
+.verso{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    background-color: aqua;
+    margin-top: 5%;
+    }
+
+.imagen_1y2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: rgb(21, 22, 22);
+    justify-content: space-around;
+    
+}
+.imagen1{
+    width:40%;
+    background-color: #ff0037;
+    display: flex;
+    height: 40%;
+    
+
+}
+.imagen2{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    
+    height: 40%;
+    
+    
+    
+}
+
+
+.img_scholl{
+    width: 100%;
+}
+
+.img_google{
+    width: 70%;
+}
+
+.sistema{
+    display: flex;
+    
+}
+
+.sistema div{
+    width: 50%;
+}
+.img_planeta{
+    width: 70%;
+}
+.img_android{
+    width: 30%;
+
+}
+.img_ios{
+    width: 30%;
+}
+.sistema_verso{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    }
+   
