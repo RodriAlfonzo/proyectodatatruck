@@ -52,10 +52,10 @@ ul{
 }
 .linea_nav{
     width: 100%;
-    height: 20px;
+    height: 10px;
     background-image:linear-gradient(to right, #1e2530,white,#181e26);
     position:absolute;
-    bottom: -12px;
+    bottom: -10px;
     
 }
 
@@ -134,6 +134,7 @@ footer{
 }
  .derechos{
     font-family: 'Zen Dots', cursive;
+    font-size: small;
     width: 50%;
    color: white;
     display: flex;
@@ -144,6 +145,7 @@ footer{
  
 .firma{
     font-family: 'Zen Dots', cursive;
+    font-size: small;
     width: 50%;
     color: white;
     display: flex;
@@ -153,7 +155,7 @@ footer{
 }
 .linea_footer{
     width: 100%;
-    height: 20px;
+    height: 10px;
     background-image:linear-gradient(to right, #1e2530,white,#181e26);
     position: absolute;
     top: 0;
@@ -168,10 +170,11 @@ footer{
 
  .empresa{
     display: flex;
-    
-    
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
    
-    height: 100vh;
+    height: 80vh;
     
     
 }
@@ -181,35 +184,46 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 4%;
-    background-color: aqua;
     margin-top: 5%;
+
+    }
+    .linea_divisoria{
+        height: 60%;
+        width: 1px;
+        background-color:red;
+        margin-top: 10%;
     }
 
-.imagen_1y2{
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    background-color: rgb(21, 22, 22);
-    justify-content: space-around;
+.imagen_1padre{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width: 25%;
+    
+    justify-content:center;
+    height: 100%;
     
 }
 .imagen1{
-    width:40%;
-    background-color: #ff0037;
-    display: flex;
-    height: 40%;
-    
-
+    width:60%;
+    height: 30%;
+    border-radius: 10px;
 }
+
+.imagen_2padre{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    width: 25%;
+    
+    justify-content:end;
+    height: 85%;
+}
+
 .imagen2{
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    
-    height: 40%;
-    
-    
-    
+    width: 60%;
+    height: 35%;
+    border-radius: 10px;
 }
 
 
