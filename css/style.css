@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /*** Header***/
 
 header div img {
@@ -11,252 +12,280 @@ header div img {
     margin-top: 1%;
 }
 
-header{
-    display:flex ;
+header {
+    display: flex;
     position: fixed;
     width: 100%;
     height: 10%;
     background-color: white;
     z-index: 1;
-    
 }
 
 
-ul{
+ul {
     list-style-type: none;
-    
 }
 
-.navegacion a{
+.navegacion a {
     text-decoration: none;
     color: black;
     font-family: 'Zen Dots', cursive;
-    
 }
 
-.navegacion a:hover{
+.navegacion a:hover {
     color: #ff0037;
-    
-}
-.button a:hover{
-    color:white;
 }
 
-.navegacion{
+.button a:hover {
+    color: white;
+}
+
+.navegacion {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
-    
 }
-.linea_nav{
+
+.linea_nav {
     width: 100%;
     height: 10px;
-    background-image:linear-gradient(to right, #1e2530,white,#181e26);
-    position:absolute;
+    background-image: linear-gradient(to right, #1e2530, white, #181e26);
+    position: absolute;
     bottom: -10px;
-    
 }
 
-header div{
+header div {
     width: 50%;
-    
 }
 
-nav{width: 50%;
+nav {
+    width: 50%;
 }
 
-.button{
+.button {
     border: 2px solid black;
     padding: 2px;
     background-color: #ff0037;
     border-radius: 5px;
 }
+
 /***Termina Header***/
+
+/***main***/
+
+main {
+    width: 100%;
+}
 
 /***Index***/
 
-.leyenda_principal{
+.leyenda_principal {
     display: flex;
     justify-content: center;
     background-color: #1e2530;
     align-items: stretch;
     height: 100vh;
-    
 }
 
-.leyenda_principal p{
-font-family: 'Zen Dots', cursive;
-font-size: 3rem;
-color:white;
-position:absolute;
-top: 30%;
-left: 52%;
-transform: translate(-80%, -10%);
-
-
-
+.leyenda_principal p {
+    font-family: 'Zen Dots', cursive;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    transform: translate(-80%, -10%);
 }
-.leyenda_principal video{
+
+.leyenda_principal video {
     width: 80%;
     opacity: 60%;
-    
-    
 }
-.leyenda_principal a{
+
+.leyenda_principal a {
     text-decoration: none;
     border: 2px solid #1e2530;
     padding: 2px;
-    background-color:#ff0037;
+    background-color: #ff0037;
     border-radius: 5px;
     color: #1e2530;
     font-size: 2rem;
     margin-left: 5%;
 }
 
-.leyenda_principal a:hover{
-    color:rgb(253, 249, 249);
+.leyenda_principal a:hover {
+    color: rgb(253, 249, 249);
 }
 
- /***Termina Index***/
+/***Termina Index***/
 
- /*** Footer***/
-footer{
-    display:flex;
-    position:fixed;
+/*** Footer***/
+footer {
+    display: flex;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 7%;
+    height: 5%;
     background-color: #1e2530;
     z-index: 1;
-    
 }
- .derechos{
-    font-family: 'Zen Dots', cursive;
-    font-size: small;
-    width: 50%;
-   color: white;
-    display: flex;
-    align-items: center; 
-    flex-wrap: wrap;
-    justify-content:center;
- }
- 
-.firma{
+
+.derechos {
     font-family: 'Zen Dots', cursive;
     font-size: small;
     width: 50%;
     color: white;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.firma {
+    font-family: 'Zen Dots', cursive;
+    font-size: small;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.linea_footer{
+
+.linea_footer {
     width: 100%;
     height: 10px;
-    background-image:linear-gradient(to right, #1e2530,white,#181e26);
+    background-image: linear-gradient(to right, #1e2530, white, #181e26);
     position: absolute;
-    top: 0;
-    
+    top: -4px;
 }
 
 
- /*** Termina Footer***/
+/*** Termina Footer***/
 
 
- /***Empresa***/
+/***Empresa***/
 
- .empresa{
+.empresa {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-family: 'Roboto Mono', monospace;
-   
     height: 80vh;
-    
-    
 }
 
-.verso{
+.verso {
     width: 50%;
     display: flex;
     flex-direction: column;
     padding: 4%;
     margin-top: 5%;
-
-    }
-    .linea_divisoria{
-        height: 60%;
-        width: 1px;
-        background-color:red;
-        margin-top: 10%;
-    }
-
-.imagen_1padre{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    width: 25%;
-    
-    justify-content:center;
-    height: 100%;
-    
 }
-.imagen1{
-    width:60%;
+
+.linea_divisoria {
+    height: 60%;
+    width: 1px;
+    background-color: red;
+    margin-top: 10%;
+}
+
+.imagen_1padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+    height: 100%;
+}
+
+.imagen1 {
+    width: 60%;
     height: 30%;
     border-radius: 10px;
 }
 
-.imagen_2padre{
-    display:flex;
-    flex-direction:column;
-    align-items:flex-start;
+.imagen_2padre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 25%;
-    
-    justify-content:end;
+    justify-content: end;
     height: 85%;
 }
 
-.imagen2{
+.imagen2 {
     width: 60%;
     height: 35%;
     border-radius: 10px;
 }
 
+/*** Termina Empresa***/
 
-.img_scholl{
-    width: 100%;
+/***sistema***/
+
+.servicios {
+    display: grid;
+
 }
 
-.img_google{
-    width: 70%;
-}
-
-.sistema{
+.app {
     display: flex;
-    
-}
-
-.sistema div{
-    width: 50%;
-}
-.img_planeta{
-    width: 70%;
-}
-.img_android{
-    width: 30%;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    gap: 20px;
 
 }
-.img_ios{
+
+.img_android {
     width: 30%;
 }
-.sistema_verso{
+
+.img_ios {
+    width: 30%;
+}
+
+.img_laptop {
     width: 50%;
+    border-radius: 10px;
+
+}
+
+.descargas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    ;
+}
+
+.plataforma {
     display: flex;
     flex-direction: column;
-    padding: 4%;
-    }
-   
+    justify-content: space-evenly;
+}
+
+.lista_servicios li {
+    font-size: 30px;
+}
+
+.container {
+    margin-top: 5rem;
+
+    /**prueba**/
+}
+
+.grid-container {
+    display: grid;
+    margin-top: 10rem;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.grid-container>div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+
+}
